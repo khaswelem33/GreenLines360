@@ -1,0 +1,17 @@
+﻿node_modules/
+.next/
+out/
+dist/
+build/
+
+.env
+.env.*
+!.env.example
+
+.vercel/
+*.log
+.DS_Store
+Thumbs.db
+
+Brand-Logo-and-icons.rar
+New Profile 2026.pdf
