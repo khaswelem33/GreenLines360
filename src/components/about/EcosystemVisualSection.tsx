@@ -26,8 +26,7 @@ export function EcosystemVisualSection({
         </Reveal>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {ecosystem.blocks.map((block, index) => {
-            const slotCode = block.slotCode ?? block.media?.code;
-            if (!slotCode) return null;
+            const { slotCode } = block;
 
             return (
               <Reveal key={slotCode} delay={index * 110} scale>

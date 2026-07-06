@@ -358,6 +358,74 @@ export const mediaRegistry: Record<string, RegistryMediaSlot> = {
       es: "Estructura organizativa de Green Lines for Investment",
     },
   },
+
+  /* ------------------------------ Contact page ---------------------------- */
+  "IMG-CONTACT-HERO-01": {
+    code: "IMG-CONTACT-HERO-01",
+    ...slotPaths("contact", "IMG-CONTACT-HERO-01"),
+    recommendedSize: "1600 × 900",
+    aspectRatio: "16 / 9",
+    replacementLabel: {
+      ar: "صورة رئيسية لصفحة التواصل: تواصل مؤسسي عالمي",
+      en: "Hero image: global corporate communication",
+      it: "Immagine hero: comunicazione aziendale globale",
+      de: "Hero-Bild: globale Unternehmenskommunikation",
+      fr: "Image hero : communication d'entreprise mondiale",
+      es: "Imagen hero: comunicación corporativa global",
+    },
+    alt: {
+      ar: "التواصل مع جرين لاينز للاستثمار",
+      en: "Contacting Green Lines for Investment",
+      it: "Contattare Green Lines for Investment",
+      de: "Kontakt zu Green Lines for Investment",
+      fr: "Contacter Green Lines for Investment",
+      es: "Contacto con Green Lines for Investment",
+    },
+  },
+  "IMG-CONTACT-LOCATION-01": {
+    code: "IMG-CONTACT-LOCATION-01",
+    ...slotPaths("contact", "IMG-CONTACT-LOCATION-01"),
+    recommendedSize: "1400 × 900",
+    aspectRatio: "14 / 9",
+    replacementLabel: {
+      ar: "صورة الموقع أو المكاتب",
+      en: "Office or location imagery",
+      it: "Immagine della sede o degli uffici",
+      de: "Standort- oder Bürobild",
+      fr: "Image du site ou des bureaux",
+      es: "Imagen de la sede u oficinas",
+    },
+    alt: {
+      ar: "موقع جرين لاينز للاستثمار",
+      en: "Green Lines for Investment location",
+      it: "Sede di Green Lines for Investment",
+      de: "Standort von Green Lines for Investment",
+      fr: "Site de Green Lines for Investment",
+      es: "Ubicación de Green Lines for Investment",
+    },
+  },
+  "IMG-CONTACT-SUPPORT-01": {
+    code: "IMG-CONTACT-SUPPORT-01",
+    ...slotPaths("contact", "IMG-CONTACT-SUPPORT-01"),
+    recommendedSize: "1200 × 800",
+    aspectRatio: "3 / 2",
+    replacementLabel: {
+      ar: "صورة تعبر عن التواصل وخدمة الشركاء",
+      en: "Communications and partner support visual",
+      it: "Immagine di comunicazione e supporto ai partner",
+      de: "Bild für Kommunikation und Partnerbetreuung",
+      fr: "Visuel communication et accompagnement des partenaires",
+      es: "Imagen de comunicación y atención a socios",
+    },
+    alt: {
+      ar: "التواصل وخدمة الشركاء في جرين لاينز للاستثمار",
+      en: "Communications and partner support at Green Lines for Investment",
+      it: "Comunicazione e supporto ai partner di Green Lines for Investment",
+      de: "Kommunikation und Partnerbetreuung bei Green Lines for Investment",
+      fr: "Communication et accompagnement des partenaires chez Green Lines for Investment",
+      es: "Comunicación y atención a socios en Green Lines for Investment",
+    },
+  },
 };
 
 /** Back-compat alias (leadership components import this name). */

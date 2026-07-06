@@ -17,13 +17,6 @@ const about: AboutPageContent = {
       "Green Lines for Investment is an integrated investment platform developing agri-food value chains from agriculture and primary production to processing, preservation, quality, and export, guided by trust, sustainability, and operational excellence.",
     primaryCta: "Explore Business Sectors",
     secondaryCta: "Quality & Sustainability",
-    media: {
-      code: "IMG-ABOUT-HERO-01",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-HERO-01.png",
-      size: "1600 × 900",
-      label: "Hero image: agriculture, food manufacturing, and export value chain",
-    },
   },
   whoWeAre: {
     title: "Who We Are",
@@ -33,14 +26,6 @@ const about: AboutPageContent = {
     ],
     highlight:
       "An integrated investment platform shaping sustainable food systems from source to market.",
-    media: {
-      code: "IMG-ABOUT-ECOSYSTEM-01",
-      size: "1400 × 900",
-      label: "Integrated ecosystem from land to market",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-ECOSYSTEM-01.png",
-      alt: "Integrated ecosystem connecting agriculture, food manufacturing, storage, and supply chain",
-    },
   },
   positioning: {
     title: "Our Positioning",
@@ -109,43 +94,19 @@ const about: AboutPageContent = {
     blocks: [
       {
         title: "Agriculture",
-        media: {
-          code: "IMG-ABOUT-AGRI-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-AGRI-01.png",
-          size: "1200 × 800",
-          label: "Smart agriculture and land reclamation",
-        },
+        slotCode: "IMG-ABOUT-AGRI-01",
       },
       {
         title: "Food Manufacturing",
-        media: {
-          code: "IMG-ABOUT-FACTORY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-FACTORY-01.png",
-          size: "1200 × 800",
-          label: "Food processing and manufacturing operations",
-        },
+        slotCode: "IMG-ABOUT-FACTORY-01",
       },
       {
         title: "Quality & Food Safety",
-        media: {
-          code: "IMG-ABOUT-QUALITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-QUALITY-01.png",
-          size: "1200 × 800",
-          label: "Quality, inspection, and food safety systems",
-        },
+        slotCode: "IMG-ABOUT-QUALITY-01",
       },
       {
         title: "Sustainability",
-        media: {
-          code: "IMG-ABOUT-SUSTAINABILITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-SUSTAINABILITY-01.png",
-          size: "1200 × 800",
-          label: "Sustainable growth and environmental responsibility",
-        },
+        slotCode: "IMG-ABOUT-SUSTAINABILITY-01",
       },
     ],
   },

@@ -17,14 +17,6 @@ const about: AboutPageContent = {
       "Green Lines for Investment es una plataforma de inversión integrada que desarrolla las cadenas de valor agroalimentarias — de la agricultura y la producción primaria a la transformación, la conservación, la calidad y la exportación — guiada por la confianza, la sostenibilidad y la excelencia operativa.",
     primaryCta: "Explorar los sectores",
     secondaryCta: "Calidad y sostenibilidad",
-    media: {
-      code: "IMG-ABOUT-HERO-01",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-HERO-01.png",
-      size: "1600 × 900",
-      label:
-        "Imagen hero: agricultura, industria alimentaria y cadena de exportación",
-    },
   },
   whoWeAre: {
     title: "Quiénes somos",
@@ -34,14 +26,6 @@ const about: AboutPageContent = {
     ],
     highlight:
       "Una plataforma de inversión integrada que impulsa sistemas alimentarios sostenibles del origen al mercado.",
-    media: {
-      code: "IMG-ABOUT-ECOSYSTEM-01",
-      size: "1400 × 900",
-      label: "Ecosistema integrado de la tierra al mercado",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-ECOSYSTEM-01.png",
-      alt: "Ecosistema integrado que conecta agricultura, fabricación alimentaria, almacenamiento y cadena de suministro",
-    },
   },
   positioning: {
     title: "Nuestro posicionamiento",
@@ -115,43 +99,19 @@ const about: AboutPageContent = {
     blocks: [
       {
         title: "Agricultura",
-        media: {
-          code: "IMG-ABOUT-AGRI-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-AGRI-01.png",
-          size: "1200 × 800",
-          label: "Agricultura inteligente y recuperación de tierras",
-        },
+        slotCode: "IMG-ABOUT-AGRI-01",
       },
       {
         title: "Industria alimentaria",
-        media: {
-          code: "IMG-ABOUT-FACTORY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-FACTORY-01.png",
-          size: "1200 × 800",
-          label: "Operaciones de procesamiento y producción de alimentos",
-        },
+        slotCode: "IMG-ABOUT-FACTORY-01",
       },
       {
         title: "Calidad y seguridad alimentaria",
-        media: {
-          code: "IMG-ABOUT-QUALITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-QUALITY-01.png",
-          size: "1200 × 800",
-          label: "Sistemas de calidad, inspección y seguridad alimentaria",
-        },
+        slotCode: "IMG-ABOUT-QUALITY-01",
       },
       {
         title: "Sostenibilidad",
-        media: {
-          code: "IMG-ABOUT-SUSTAINABILITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-SUSTAINABILITY-01.png",
-          size: "1200 × 800",
-          label: "Crecimiento sostenible y responsabilidad ambiental",
-        },
+        slotCode: "IMG-ABOUT-SUSTAINABILITY-01",
       },
     ],
   },

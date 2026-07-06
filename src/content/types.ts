@@ -123,7 +123,6 @@ export interface HomeContent {
     subtitle: string;
     primaryCta: string;
     secondaryCta: string;
-    media?: InlineMediaContent;
   };
   standards: {
     caption: string;
@@ -188,17 +187,6 @@ export interface MediaSlot {
   savePath: string;
 }
 
-export interface InlineMediaContent {
-  code: string;
-  status?: string;
-  publicPath?: string;
-  size: string;
-  label: string;
-  alt?: string;
-  savePath?: string;
-}
-
-
 export interface AboutPageContent {
   meta: Meta;
   placeholderHints: {
@@ -211,13 +199,11 @@ export interface AboutPageContent {
     subtitle: string;
     primaryCta: string;
     secondaryCta: string;
-    media?: InlineMediaContent;
   };
   whoWeAre: {
     title: string;
     paragraphs: string[];
     highlight: string;
-    media?: InlineMediaContent;
   };
   positioning: {
     title: string;
@@ -235,8 +221,8 @@ export interface AboutPageContent {
   ecosystem: {
     title: string;
     description: string;
-    /** slotCode references src/content/mediaRegistry.ts; legacy content may provide media.code. */
-    blocks: { title: string; slotCode?: string; media?: InlineMediaContent }[];
+    /** slotCode references src/content/mediaRegistry.ts (required — every block has a physical CODE.png slot) */
+    blocks: { title: string; slotCode: string }[];
   };
   strengths: {
     title: string;
@@ -261,6 +247,64 @@ export interface AboutPageContent {
     text: string;
     primaryCta: string;
     secondaryCta: string;
+  };
+}
+
+export interface ContactCard {
+  title: string;
+  description: string;
+  cta: string;
+}
+
+export interface ContactPageContent {
+  meta: Meta;
+  placeholderHints: {
+    recommended: string;
+    replaceWith: string;
+  };
+  hero: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    callCta: string;
+    mapsCta: string;
+  };
+  quickCards: {
+    phone: ContactCard;
+    email: ContactCard;
+    location: ContactCard;
+    business: ContactCard;
+  };
+  details: {
+    heading: string;
+    phoneLabel: string;
+    emailLabel: string;
+    locationLabel: string;
+    locationNote: string;
+    mapsCta: string;
+    mapTitle: string;
+  };
+  form: {
+    title: string;
+    fullName: string;
+    companyName: string;
+    email: string;
+    phone: string;
+    subject: string;
+    message: string;
+    submit: string;
+    helper: string;
+    success: string;
+    error: string;
+  };
+  why: {
+    title: string;
+    cards: { title: string; body: string }[];
+  };
+  finalCta: {
+    text: string;
+    callCta: string;
+    emailCta: string;
   };
 }
 
@@ -419,7 +463,7 @@ export interface SiteContent {
   sustainability: PagePlaceholderContent;
   leadership: LeadershipContent;
   organization: PagePlaceholderContent;
-  contact: PagePlaceholderContent;
+  contact: ContactPageContent;
   auth: AuthContent;
   portal: PortalContent;
 }

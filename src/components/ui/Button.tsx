@@ -24,7 +24,10 @@ const sizes: Record<Size, string> = {
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: Variant;
   size?: Size;
+  /** Internal locale-aware route */
   href?: string;
+  /** External or protocol link (tel:, mailto:, https:) rendered as <a> */
+  externalHref?: string;
   className?: string;
   children: React.ReactNode;
 }
@@ -33,11 +36,25 @@ export function Button({
   variant = "primary",
   size = "md",
   href,
+  externalHref,
   className,
   children,
   ...props
 }: ButtonProps) {
   const classes = cn(base, variants[variant], sizes[size], className);
+
+  if (externalHref) {
+    const isWeb = externalHref.startsWith("http");
+    return (
+      <a
+        href={externalHref}
+        className={classes}
+        {...(isWeb ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+      >
+        {children}
+      </a>
+    );
+  }
 
   if (href) {
     return (

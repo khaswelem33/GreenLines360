@@ -17,13 +17,6 @@ const about: AboutPageContent = {
       "Green Lines for Investment è una piattaforma d'investimento integrata che sviluppa le filiere agroalimentari — dall'agricoltura e la produzione primaria alla trasformazione, conservazione, qualità ed export — guidata da fiducia, sostenibilità ed eccellenza operativa.",
     primaryCta: "Esplora i settori",
     secondaryCta: "Qualità e sostenibilità",
-    media: {
-      code: "IMG-ABOUT-HERO-01",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-HERO-01.png",
-      size: "1600 × 900",
-      label: "Immagine hero: agricoltura, trasformazione alimentare e filiera export",
-    },
   },
   whoWeAre: {
     title: "Chi siamo",
@@ -33,14 +26,6 @@ const about: AboutPageContent = {
     ],
     highlight:
       "Una piattaforma d'investimento integrata che costruisce sistemi alimentari sostenibili dall'origine al mercato.",
-    media: {
-      code: "IMG-ABOUT-ECOSYSTEM-01",
-      size: "1400 × 900",
-      label: "Ecosistema integrato dalla terra al mercato",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-ECOSYSTEM-01.png",
-      alt: "Ecosistema integrato che collega agricoltura, produzione alimentare, stoccaggio e catena di fornitura",
-    },
   },
   positioning: {
     title: "Il nostro posizionamento",
@@ -112,43 +97,19 @@ const about: AboutPageContent = {
     blocks: [
       {
         title: "Agricoltura",
-        media: {
-          code: "IMG-ABOUT-AGRI-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-AGRI-01.png",
-          size: "1200 × 800",
-          label: "Agricoltura intelligente e bonifica dei terreni",
-        },
+        slotCode: "IMG-ABOUT-AGRI-01",
       },
       {
         title: "Trasformazione alimentare",
-        media: {
-          code: "IMG-ABOUT-FACTORY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-FACTORY-01.png",
-          size: "1200 × 800",
-          label: "Operazioni di trasformazione e produzione alimentare",
-        },
+        slotCode: "IMG-ABOUT-FACTORY-01",
       },
       {
         title: "Qualità e sicurezza alimentare",
-        media: {
-          code: "IMG-ABOUT-QUALITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-QUALITY-01.png",
-          size: "1200 × 800",
-          label: "Sistemi di qualità, ispezione e sicurezza alimentare",
-        },
+        slotCode: "IMG-ABOUT-QUALITY-01",
       },
       {
         title: "Sostenibilità",
-        media: {
-          code: "IMG-ABOUT-SUSTAINABILITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-SUSTAINABILITY-01.png",
-          size: "1200 × 800",
-          label: "Crescita sostenibile e responsabilità ambientale",
-        },
+        slotCode: "IMG-ABOUT-SUSTAINABILITY-01",
       },
     ],
   },

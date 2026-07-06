@@ -17,13 +17,6 @@ const about: AboutPageContent = {
       "جرين لاينز للاستثمار منصة استثمارية متكاملة تعمل على تطوير سلاسل القيمة الزراعية والغذائية من الزراعة والإنتاج الأولي إلى التصنيع والحفظ والجودة والتصدير، برؤية قائمة على الثقة والاستدامة والتميز التشغيلي.",
     primaryCta: "استكشف قطاعات الأعمال",
     secondaryCta: "الجودة والاستدامة",
-    media: {
-      code: "IMG-ABOUT-HERO-01",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-HERO-01.png",
-      size: "1600 × 900",
-      label: "صورة رئيسية: الزراعة والتصنيع الغذائي وسلسلة التصدير",
-    },
   },
   whoWeAre: {
     title: "من نحن",
@@ -33,14 +26,6 @@ const about: AboutPageContent = {
     ],
     highlight:
       "منصة استثمارية متكاملة تبني منظومة غذائية مستدامة من المصدر إلى السوق.",
-    media: {
-      code: "IMG-ABOUT-ECOSYSTEM-01",
-      size: "1400 × 900",
-      label: "منظومة متكاملة من الأرض إلى السوق",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-ECOSYSTEM-01.png",
-      alt: "منظومة متكاملة تربط الزراعة والتصنيع الغذائي والتخزين وسلاسل الإمداد",
-    },
   },
   positioning: {
     title: "مكانتنا",
@@ -109,43 +94,19 @@ const about: AboutPageContent = {
     blocks: [
       {
         title: "الزراعة",
-        media: {
-          code: "IMG-ABOUT-AGRI-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-AGRI-01.png",
-          size: "1200 × 800",
-          label: "الزراعة الذكية واستصلاح الأراضي",
-        },
+        slotCode: "IMG-ABOUT-AGRI-01",
       },
       {
         title: "التصنيع الغذائي",
-        media: {
-          code: "IMG-ABOUT-FACTORY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-FACTORY-01.png",
-          size: "1200 × 800",
-          label: "عمليات التصنيع والمعالجة الغذائية",
-        },
+        slotCode: "IMG-ABOUT-FACTORY-01",
       },
       {
         title: "الجودة وسلامة الغذاء",
-        media: {
-          code: "IMG-ABOUT-QUALITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-QUALITY-01.png",
-          size: "1200 × 800",
-          label: "أنظمة الجودة والفحص وسلامة الغذاء",
-        },
+        slotCode: "IMG-ABOUT-QUALITY-01",
       },
       {
         title: "الاستدامة",
-        media: {
-          code: "IMG-ABOUT-SUSTAINABILITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-SUSTAINABILITY-01.png",
-          size: "1200 × 800",
-          label: "نمو مستدام ومسؤولية بيئية",
-        },
+        slotCode: "IMG-ABOUT-SUSTAINABILITY-01",
       },
     ],
   },

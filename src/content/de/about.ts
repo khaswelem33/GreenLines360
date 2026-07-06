@@ -17,14 +17,6 @@ const about: AboutPageContent = {
       "Green Lines for Investment ist eine integrierte Investmentplattform, die Agrar- und Lebensmittel-Wertschöpfungsketten entwickelt — von Landwirtschaft und Primärproduktion über Verarbeitung, Konservierung und Qualität bis zum Export — geleitet von Vertrauen, Nachhaltigkeit und operativer Exzellenz.",
     primaryCta: "Geschäftsbereiche entdecken",
     secondaryCta: "Qualität & Nachhaltigkeit",
-    media: {
-      code: "IMG-ABOUT-HERO-01",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-HERO-01.png",
-      size: "1600 × 900",
-      label:
-        "Hero-Bild: Landwirtschaft, Lebensmittelherstellung und Export-Wertschöpfungskette",
-    },
   },
   whoWeAre: {
     title: "Wer wir sind",
@@ -34,14 +26,6 @@ const about: AboutPageContent = {
     ],
     highlight:
       "Eine integrierte Investmentplattform für nachhaltige Lebensmittelsysteme — von der Quelle bis zum Markt.",
-    media: {
-      code: "IMG-ABOUT-ECOSYSTEM-01",
-      size: "1400 × 900",
-      label: "Integriertes Ökosystem vom Land zum Markt",
-      status: "ready",
-      publicPath: "/images/about/IMG-ABOUT-ECOSYSTEM-01.png",
-      alt: "Integriertes Ökosystem aus Landwirtschaft, Lebensmittelproduktion, Lagerung und Lieferkette",
-    },
   },
   positioning: {
     title: "Unsere Positionierung",
@@ -116,43 +100,19 @@ const about: AboutPageContent = {
     blocks: [
       {
         title: "Landwirtschaft",
-        media: {
-          code: "IMG-ABOUT-AGRI-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-AGRI-01.png",
-          size: "1200 × 800",
-          label: "Smarte Landwirtschaft und Landgewinnung",
-        },
+        slotCode: "IMG-ABOUT-AGRI-01",
       },
       {
         title: "Lebensmittelherstellung",
-        media: {
-          code: "IMG-ABOUT-FACTORY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-FACTORY-01.png",
-          size: "1200 × 800",
-          label: "Lebensmittelverarbeitung und Produktionsbetrieb",
-        },
+        slotCode: "IMG-ABOUT-FACTORY-01",
       },
       {
         title: "Qualität & Lebensmittelsicherheit",
-        media: {
-          code: "IMG-ABOUT-QUALITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-QUALITY-01.png",
-          size: "1200 × 800",
-          label: "Qualitäts-, Inspektions- und Lebensmittelsicherheits-Systeme",
-        },
+        slotCode: "IMG-ABOUT-QUALITY-01",
       },
       {
         title: "Nachhaltigkeit",
-        media: {
-          code: "IMG-ABOUT-SUSTAINABILITY-01",
-          status: "ready",
-          publicPath: "/images/about/IMG-ABOUT-SUSTAINABILITY-01.png",
-          size: "1200 × 800",
-          label: "Nachhaltiges Wachstum und ökologische Verantwortung",
-        },
+        slotCode: "IMG-ABOUT-SUSTAINABILITY-01",
       },
     ],
   },
