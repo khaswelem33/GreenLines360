@@ -10,7 +10,7 @@ export function StandardsStrip({
   return (
     <section className="bg-ivory py-10 md:py-12">
       <Container>
-        <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-neutral">
+        <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] rtl:tracking-normal text-neutral">
           {standards.caption}
         </p>
         <ul className="mt-6 flex flex-wrap items-stretch justify-center gap-3 md:gap-4">

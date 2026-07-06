@@ -25,7 +25,7 @@ export function SectionHeading({
       {eyebrow ? (
         <p
           className={cn(
-            "mb-3 text-sm font-semibold uppercase tracking-widest",
+            "mb-3 text-sm font-semibold uppercase tracking-widest rtl:tracking-normal",
             dark ? "text-gold-light" : "text-gold"
           )}
         >

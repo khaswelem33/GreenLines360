@@ -40,7 +40,7 @@ export function Footer({ shared }: { shared: SharedContent }) {
         {/* Link columns */}
         {shared.footer.columns.map((column) => (
           <nav key={column.heading} aria-label={column.heading}>
-            <h3 className="text-sm font-semibold uppercase tracking-widest text-gold">
+            <h3 className="text-sm font-semibold uppercase tracking-widest rtl:tracking-normal text-gold">
               {column.heading}
             </h3>
             <ul className="mt-4 space-y-2.5">
@@ -62,7 +62,7 @@ export function Footer({ shared }: { shared: SharedContent }) {
       {/* Standards strip */}
       <div className="border-t border-ivory/10">
         <div className="container flex flex-col items-center gap-3 py-6 text-center md:flex-row md:justify-between md:text-start">
-          <p className="text-xs uppercase tracking-widest text-ivory/50">
+          <p className="text-xs uppercase tracking-widest rtl:tracking-normal text-ivory/50">
             {shared.footer.standardsCaption}
           </p>
           <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">

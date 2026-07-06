@@ -25,6 +25,18 @@ body {
   hyphens: auto;
 }
 
+/*
+ * Arabic typography rule: Arabic script is connected — letter-spacing
+ * must NEVER be applied. This override neutralizes every Tailwind
+ * tracking utility (including arbitrary values like tracking-[0.2em])
+ * for the RTL (Arabic) locale, current and future. Latin locales keep
+ * their premium tracking untouched. Icons/SVGs are unaffected by
+ * letter-spacing.
+ */
+html[dir="rtl"] * {
+  letter-spacing: normal !important;
+}
+
 ::selection {
   @apply bg-primary text-ivory;
 }

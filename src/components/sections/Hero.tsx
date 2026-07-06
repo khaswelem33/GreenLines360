@@ -35,7 +35,7 @@ export function Hero({ hero }: { hero: HomeContent["hero"] }) {
 
       <Container className="relative py-24 md:py-32 lg:py-36">
         <div className="max-w-3xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-gold-light">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] rtl:tracking-normal text-gold-light">
             {hero.eyebrow}
           </p>
           <h1 className="text-balance font-heading text-4xl font-semibold leading-[1.15] md:text-5xl lg:text-6xl">
